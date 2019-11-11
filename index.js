@@ -154,7 +154,8 @@ function Version(model, customOptions) {
       });
 
       return versionModel.bulkCreate(versionData, {
-        transaction: versionTransaction
+      //  transaction: versionTransaction
+      // TW. Removed for now.
       });
     });
   });
